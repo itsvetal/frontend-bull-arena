@@ -37,7 +37,7 @@ const ArenaWithBull = ({ matador }: ArenaWithBullProps) => {
         }, 1500);
         // remove event listener on unmount
         const visibilityInterval = setInterval(() => {
-            setIsVisible((oldIsVisible) => !oldIsVisible);
+            //setIsVisible((oldIsVisible) => !oldIsVisible);
         }, 20000);
 
         return () => {

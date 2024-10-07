@@ -1,0 +1,6 @@
+.matador-container {
+    display: flex;
+    background-image: url("../../assets/image/matador.png");
+    background-size: cover;
+    height: 200px;
+}
