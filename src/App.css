@@ -76,16 +76,24 @@ h1 {
   gap: 0;
 }
 
-.duel .matador {
-  width: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .duel .cell {
   height: 200px;
   width: 250px;
 
   border: 1px solid black;
+}
+
+.applause-button {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: red;
+  color: white;
+  box-shadow: 3px 3px grey;
+}
+
+.applause-button:active {
+  box-shadow: 0 1px;
+  transform: translateY(1px);
 }
